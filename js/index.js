@@ -70,7 +70,7 @@ $( "#sec2btn" ).click(function() {
                                                 fontFamily: 'Courier',
                                                 fontColor: '#fff',
                                                 lineColor: '#fff',
-                                                percentage: 91,
+                                                percentage: 90,
                                                 lineWidth: 15,
                                                 width: 150, // width of the loader in pixels
                                                 height: 150,
@@ -83,7 +83,7 @@ $( "#sec2btn" ).click(function() {
                                                 fontFamily: 'Courier',
                                                 fontColor: '#fff',
                                                 lineColor: '#fff',
-                                                percentage: 84,
+                                                percentage: 78,
                                                 lineWidth: 15,
                                                 width: 150, // width of the loader in pixels
                                                 height: 150,
@@ -96,7 +96,7 @@ $( "#sec2btn" ).click(function() {
                                                 fontFamily: 'Courier',
                                                 fontColor: '#fff',
                                                 lineColor: '#fff',
-                                                percentage: 78,
+                                                percentage: 65,
                                                 lineWidth: 15,
                                                 width: 150, // width of the loader in pixels
                                                 height: 150,
