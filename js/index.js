@@ -1,6 +1,6 @@
 
+enable_scroll();
 
-disable_scroll();
 
 $( ".open" ).click(function() {
   //alert( "Handler for .click() called." );
@@ -10,7 +10,7 @@ $( ".open" ).click(function() {
           setTimeout(function (){
               $("#section1 h1").fadeIn(1500);
             },1700);
-            enable_scroll();
+            disable_scroll();
             setTimeout(function (){
                 $("#nav").fadeIn(1000);
             },4000);
