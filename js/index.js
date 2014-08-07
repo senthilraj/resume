@@ -1,5 +1,6 @@
 
 
+disable_scroll();
 
 $( ".open" ).click(function() {
   //alert( "Handler for .click() called." );
@@ -9,7 +10,7 @@ $( ".open" ).click(function() {
           setTimeout(function (){
               $("#section1 h1").fadeIn(1500);
             },1700);
-            disable_scroll();
+            enable_scroll();
             setTimeout(function (){
                 $("#nav").fadeIn(1000);
             },4000);
@@ -46,7 +47,14 @@ function disable_scroll() {
   document.onkeydown = keydown;
 }
  
- 
+ function enable_scroll() {
+    if (window.removeEventListener) {
+        window.removeEventListener('DOMMouseScroll', wheel, false);
+    }
+    window.onmousewheel = document.onmousewheel = document.onkeydown = null;  
+}
+
+
 $( "#sec2btn" ).click(function() { 
     //alert("sdf");
     setTimeout(function (){
