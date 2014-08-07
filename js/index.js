@@ -1,5 +1,5 @@
 
-enable_scroll();
+disable_scroll();
 
 
 $( ".open" ).click(function() {
@@ -10,7 +10,7 @@ $( ".open" ).click(function() {
           setTimeout(function (){
               $("#section1 h1").fadeIn(1500);
             },1700);
-            disable_scroll();
+            enable_scroll();
             setTimeout(function (){
                 $("#nav").fadeIn(1000);
             },4000);
