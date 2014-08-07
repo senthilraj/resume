@@ -4,7 +4,7 @@
 #section1{ text-align: center; width: 100%; background: url(../images/senthil2.png) no-repeat ; background-size: cover; height: 650px; float:left;}
 #section1 img{ width: 400px;}
 .container{ width: 980px; margin: 0 auto;}
-#section1 h1{ color: #FFF; line-height: 20px; text-align:left; font-family: arial; font-size: 14px; margin-top: 320px; display: none; padding: 20px; background:/*url(../images/about.png)*/#038ad7; border-radius: 10px;
+#section1 h1{ color: #FFF; line-height: 24px; text-align:left; font-family: arial; font-size: 14px; margin-top: 320px; display: none; padding: 20px; background:/*url(../images/about.png)*/#038ad7; border-radius: 10px;
 font-weight: normal; }
 #section2 h1{ color: #fff; font-weight: normal; font-size: 26px; text-align: left; margin-top: 20px; display: none;}
 #section2 ul.skills{width: 100%; margin: 100px 0; float: left;}
