@@ -2,7 +2,8 @@
 disable_scroll();
 
 var shu_h = $('.shutter').height();
-console.log(shu_h+" er:"+shu_h-30);
+console.log(shu_h);
+console.log(shu_h-30);
 $( ".open" ).click(function() {
   //alert( "Handler for .click() called." );
           $(this).fadeOut();
