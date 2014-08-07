@@ -1,12 +1,12 @@
 
 disable_scroll();
 
-
+var shu_h = $('.shutter').height()-30;
 $( ".open" ).click(function() {
   //alert( "Handler for .click() called." );
           $(this).fadeOut();
           //$(".shutter").css({"top":"-865px"});
-          $( ".shutter" ).animate({top: "-590px"}, 1500);
+          $( ".shutter" ).animate({top: "-"+shu_h+"px"}, 1500);
           setTimeout(function (){
               $("#section1 h1").fadeIn(1500);
             },1700);
