@@ -109,7 +109,7 @@ $( "#sec2btn" ).click(function() {
                                                 fontFamily: 'Courier',
                                                 fontColor: '#fff',
                                                 lineColor: '#fff',
-                                                percentage: 80,
+                                                percentage: 70,
                                                 lineWidth: 15,
                                                 width: 150, // width of the loader in pixels
                                                 height: 150,
