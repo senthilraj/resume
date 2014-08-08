@@ -56,4 +56,4 @@ width: 100% !important;
 margin: 15px 0 30px 0;
 text-align: center !important;
 }
-h1.title_ex{color: #fff; font-weight: normal; font-size: 26px; text-align: left; margin-top: 20px;}
+h1.title_ex{color: #fff; font-weight: normal; font-size: 26px; text-align: left; margin-top: 20px; float:left;}
