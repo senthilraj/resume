@@ -127,13 +127,32 @@ $( "#sec2btn" ).click(function() {
 
 $("#sec3btn").click(function(){
 
-  $( ".car" ).animate({right: "1500px"}, 3600, function () {
+ /* $( ".car" ).animate({right: "1500px"}, 3600, function () {
       
       $( ".car" ).css({right: "-600px"});
       //$( ".car" ).css({transform: translate(0, 0)});
  
-  });
+  });*/
+  setTimeout(function (){
+             $( ".timeline" ).animate({width: "50%"}, 1600);
+            },1300);
   
+  setTimeout(function (){
+              $( ".timeline" ).animate({height: "40px"}, 600);
+            },2900);
+  setTimeout(function (){
+              $( ".dot" ).fadeIn();
+            },3500);
+    setTimeout(function (){
+              $( ".ex_y" ).fadeIn(800);
+            },4500);
+    setTimeout(function (){
+              $( "#section3 h1" ).fadeIn(800);
+            },5300);
+    setTimeout(function (){
+              $( "#section3 p" ).fadeIn(800);
+            },6100);
+            
 });
 
 $("#nav").scroll_navi();
