@@ -1,4 +1,16 @@
+$(document).ready(function() {		
+	//Required for loading
+	$.ajax();							
+});
+		
+// Loading	
+$(document).ajaxStart(function(){
+		$("#loading").show();
+});
 
+$(document).ajaxStop(function(){
+	$("#loading").delay(200).fadeOut(500);
+});
 
 
 disable_scroll();
