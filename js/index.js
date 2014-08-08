@@ -125,7 +125,8 @@ $( "#sec2btn" ).click(function() {
       
       $( ".car" ).css({right: "-600px"});
     
-  });*/
+  });
   
-});
+});*/
+
 $("#nav").scroll_navi();
