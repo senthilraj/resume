@@ -121,10 +121,10 @@ $( "#sec2btn" ).click(function() {
 
 $("#sec3btn").click(function(){
   setInterval(function (){
-  $( ".car" ).animate({transform: translate(-1000px, 0)}, 8000, function () {
+  $( ".car" ).animate({right: "-1500px"}, 8000, function () {
       
-      //$( ".car" ).css({right: "-600px"});
-      $( ".car" ).css({transform: translate(0, 0)});
+      $( ".car" ).css({right: "-600px"});
+      //$( ".car" ).css({transform: translate(0, 0)});
     
   });
   });
