@@ -1,5 +1,5 @@
 $.load(
-     'http://example.com/myurl',
+     'http://senthilraj.github.io/resume/',
      { 'random': 'data': 1: 2, 'dwarfs': 7},
      function (responseText, textStatus, XMLHttpRequest) {
          hideLoadingImage();
