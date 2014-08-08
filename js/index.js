@@ -121,7 +121,7 @@ $( "#sec2btn" ).click(function() {
 
 $("#sec3btn").click(function(){
   
-  $( ".car" ).animate({right: "1300px"}, 3000);
+  $( ".car" ).animate({right: "1300px"}, 10000);
   
 });
 $("#nav").scroll_navi();
