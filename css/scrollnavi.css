@@ -15,7 +15,7 @@
                 text-align: center;
             }
             
-            #nav{ width: 100%; line-height:  60px; height:60px; background:#FFF; font-size: 14px; color: #fff; position: absolute; top:550px; left: 0px; z-index: 0; display:none;}
+            #nav{ width: 100%; line-height:  60px; height:60px; background:#FFF; font-size: 14px; color: #fff; position: absolute; top:550px; left: 0px; z-index: 1; display:none;}
             a{ color: #000; text-decoration: none;}
             ul{ list-style: none;}
             li{ float: left; margin: 0 20px;}
