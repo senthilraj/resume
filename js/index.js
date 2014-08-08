@@ -1,4 +1,4 @@
-$(document).ready(function() {		
+$(window).load(function() {		
 	//Required for loading
 	$.ajax();							
 });
