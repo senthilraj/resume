@@ -119,13 +119,13 @@ $( "#sec2btn" ).click(function() {
                     
 });
 
-$("#sec3btn").click(function(){
+/*$("#sec3btn").click(function(){
   
   $( ".car" ).animate({right: "1500px"}, 8000, function () {
       
       $( ".car" ).css({right: "-600px"});
     
-  });
+  });*/
   
 });
 $("#nav").scroll_navi();
