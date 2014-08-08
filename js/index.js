@@ -1,16 +1,8 @@
 $(window).load(function() {		
 	//Required for loading
-	$.ajax();							
+	$("#loading").hide();							
 });
 		
-// Loading	
-$(document).ajaxStart(function(){
-		$("#loading").show();
-});
-
-$(document).ajaxStop(function(){
-	$("#loading").delay(200).fadeOut(500);
-});
 
 
 disable_scroll();
