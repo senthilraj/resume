@@ -20,8 +20,8 @@ ul.skills li h2{color: #fff; font-weight: normal; font-size: 20px; margin-top:40
 	left: 0;
 	display: none;
 	width: 100%;
-	height: 200px;
-	line-height: 200px;
+	height: 100%;
+	line-height: 100%;
 	background: yellow;
 	text-align: center;
   z-index:999;
