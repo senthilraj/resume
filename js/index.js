@@ -127,7 +127,7 @@ $( "#sec2btn" ).click(function() {
 
 $("#sec3btn").click(function(){
 
-  $( ".car" ).animate({right: "1500px"}, 8000, function () {
+  $( ".car" ).animate({right: "1500px"}, 7000, function () {
       
       $( ".car" ).css({right: "-600px"});
       //$( ".car" ).css({transform: translate(0, 0)});
