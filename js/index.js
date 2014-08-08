@@ -133,6 +133,8 @@ $("#sec3btn").click(function(){
       //$( ".car" ).css({transform: translate(0, 0)});
  
   });*/
+      $( ".title_ex" ).fadeIn(2000);
+      
   setTimeout(function (){
              $( ".timeline" ).animate({width: "50%"}, 1600);
             },1300);
