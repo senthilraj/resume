@@ -12,3 +12,5 @@ font-weight: normal; }
 #section2 ul.skills{width: 100%; margin: 100px 0; float: left;}
 ul.skills li{width: 25%; display: none; margin: 0; }
 ul.skills li h2{color: #fff; font-weight: normal; font-size: 20px; margin-top:40px;}
+#section3{ height: 560px; background: #038ad7; width: 100%; float: left;  overflow: auto; padding: 60px 0; postition:relative;}
+#section3 .car{ position:absolute; top:40%; right:-280px;}
