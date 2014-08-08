@@ -118,4 +118,10 @@ $( "#sec2btn" ).click(function() {
             },1000);
                     
 });
+
+$("#sec3btn").click(function(){
+  
+  $( ".shutter" ).animate({right: "1300px"}, 3000);
+  
+});
 $("#nav").scroll_navi();
