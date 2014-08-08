@@ -1,22 +1,4 @@
-$.load(
-     'http://senthilraj.github.io/resume/',
-     { 'random': 'data': 1: 2, 'dwarfs': 7},
-     function (responseText, textStatus, XMLHttpRequest) {
-         hideLoadingImage();
-     }
-);
 
-// this will be run immediately after the AJAX call has been made,
-// not when it completes.
-showLoadingImage();
-
-function showLoadingImage() {
-    $('#yourParentElement').append('<div id="loading-image"><img src="path/to/loading.gif" alt="Loading..." /></div>');
-}
-
-function hideLoadingImage() {
-    $('#loading-image').remove();
-}
 
 
 disable_scroll();
