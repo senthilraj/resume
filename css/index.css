@@ -14,7 +14,7 @@ font-weight: normal; }
 #section2 ul.skills{width: 100%; margin: 100px 0; float: left;}
 ul.skills li{width: 25%; display: none; margin: 0; }
 ul.skills li h2{color: #fff; font-weight: normal; font-size: 20px; margin-top:40px;}
-#section3{ height: 560px; background: #38383a url(../images/bg3.png); width: 100%; float: left;  overflow: auto; padding: 60px 0 0 0; position:relative;}
+#section3{  background: #38383a url(../images/bg3.png); width: 100%; float: left;  overflow: auto; padding: 60px 0 0 0; position:relative;}
 #section3 .car{ position:absolute; top:40%; right:-230px;  width:230px; } 
 #loading{
 	position: absolute;
@@ -28,7 +28,7 @@ ul.skills li h2{color: #fff; font-weight: normal; font-size: 20px; margin-top:40
   z-index:999;
 }
 .gear{ position: absolute; top:40%; left: 45%; background: #2e2e2e url(../images/exp.gif) no-repeat 50% 50%; border-radius: 50%; background-size: 80px; width: 130px; height: 130px;}
-.exp_sp1,.exp_sp2{ width: 50%; float: left; /*margin: 170px 0;*/ font-family: 'lato'; height: 560px;}
+.exp_sp1,.exp_sp2{ width: 50%; float: left; /*margin: 170px 0;*/ font-family: 'lato'; height: 620px;}
 .exp_sp1{ background: #2e2e2e;}
 .exp_sp2{ background: #f3f2f2;}
 #section3 h1{ width: 85%;
