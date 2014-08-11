@@ -1,5 +1,6 @@
 *{ margin: 0; padding: 0;}
-html, body{ height:100%;}
+html{ height:100%;}
+body{ min-height: 100%;}
 body{ overflow:hidden; font-family: arial;}
 //#nav{ display: block !important;}
 .shutter{z-index: 1; position: absolute; top:0; left: 0; background: url(../images/shutter5.jpg) no-repeat 0 100%; background-size: cover; width: 100%; height: 99%; }
@@ -57,4 +58,43 @@ margin: 15px 0 30px 0;
 text-align: center !important;
 }
 h1.title_ex{color: #fff; font-weight: normal; font-size: 26px; text-align: left; margin-top: 20px; float:left; width:auto !important;}
-#section4{ }
+#section4{ background: #38383a url(../images/sec4_city.jpg); background-size: cover; width: 100%; float: left;  overflow: auto; padding: 60px 0; position:relative; height: 580px;}
+#section4 ul{width: 100%;
+margin: 40px auto;
+float: left; display: none;}
+#section4 ul li{ margin: 0 60px; float: left; border: 1px solid #fff;}
+#section4 ul li a,#section4 ul li img{ float: left;}
+#section4 ul li { position: relative;}
+.box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0px;
+    width: 200px;
+    background: url(../images/hover.png);
+    color: #fff;
+    font-family: 'lato';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+   -webkit-transition: height 20ms ease;
+-moz-transition: height 20ms ease;
+-ms-transition: height 20ms ease;
+-o-transition: height 20ms ease;
+transition: height 20ms ease;
+cursor: pointer;
+}
+ #section4 ul li:hover .box {
+    height:200px;
+  }
+  
+ .box h1, .box p{ display: none;}
+.popup_wrapper{ left: 0; bottom: 0; position: relative; background: url(../images/popup.png); width: 100%; height: 100%; z-index: 9999; display: none;}
+.popup_wrapper .popup_window{position: absolute; top:40px; left: 25%; width: 60%; background: #fff; display: none;}
+.popup_window img{ float: left; width:40%;}
+.popup_window .desc{ float: left; width:50%; margin: 40px; text-align: left; position: relative;}
+.popup_window .desc h1,.popup_window .desc p{float: left; width: 100%; margin-bottom: 10px; color: #2e2e2e; font-family: 'lato';
+    font-weight: 300;}
+.popup_window .desc h1{ font-size: 22px;}
+.popup_window .desc p{ font-size: 16px;}
+.close_pop{ background: url(../images/close.png); width: 30px; height: 30px; position: absolute; right: -67px; top:-67px; cursor: pointer;}
