@@ -14,7 +14,7 @@ font-weight: normal; }
 #section2 ul.skills{width: 100%; margin: 100px 0; float: left;}
 ul.skills li{width: 25%; display: none; margin: 0; }
 ul.skills li h2{color: #fff; font-weight: normal; font-size: 20px; margin-top:40px;}
-#section3{ height: 560px; background: #38383a url(../images/bg3.png); width: 100%; float: left;  overflow: auto; padding: 60px 0; position:relative;}
+#section3{ height: 560px; background: #38383a url(../images/bg3.png); width: 100%; float: left;  overflow: auto; padding: 60px 0 0 0; position:relative;}
 #section3 .car{ position:absolute; top:40%; right:-230px;  width:230px; } 
 #loading{
 	position: absolute;
@@ -57,3 +57,4 @@ margin: 15px 0 30px 0;
 text-align: center !important;
 }
 h1.title_ex{color: #fff; font-weight: normal; font-size: 26px; text-align: left; margin-top: 20px; float:left; width:auto !important;}
+#section4{ }
