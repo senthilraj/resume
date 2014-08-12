@@ -9,9 +9,11 @@ and open the template in the editor.
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
         <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,700italic,900italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <link rel="stylesheet" type="text/css" href="css/scrollnavi.css">
+       
     </head>
     <body>
         <div id="loading">Loading</div>
@@ -26,7 +28,7 @@ and open the template in the editor.
                 <li><a href="#section2" id="sec2btn">My Skills</a></li>
                 <li><a href="#section3" id="sec3btn">Experience</a></li>
                 <li><a href="#section4" id="sec4btn">Latest works</a></li>
-                <li><a href="https://github.com/senthilraj/ScrollNaviJs#about-me" data-outerpage="true">About Developer</a></li>
+                <li><a href="#section5" id="sec5btn">Contact me</a></li>
             </ul>
             </div>
         </nav>
@@ -68,16 +70,35 @@ and open the template in the editor.
         <section id="section4">
             <div class="container">
                 <ul>
-                    <li><div class="box" data-img="tamil"><h1>Tamil Writer App</h1><p>This is Tamil writing app</p></div><a href="#"><img src="images/tamil.png" alt="tamil_app"></a></li>
-                    <li><div class="box" data-img="voice"><h1>Voice Writer App</h1><p>This is Voice writing app</p></div><a href="#"><img src="images/voice.png" alt="voice_app"></a></li>
-                    <li><div class="box" data-img="chat"><h1>Near chat App</h1><p>This is Near chat app</p></div><a href="#"><img src="images/chat.png" alt="tamil_app"></a></li>
+                    <li><div class="box_exp" data-img="tamil"><h1>Tamil Writer App</h1><p>This is Tamil writing app</p></div><a href="#"><img src="images/tamil.png" alt="tamil_app"></a></li>
+                    <li><div class="box_exp" data-img="voice"><h1>Voice Writer App</h1><p>This is Voice writing app</p></div><a href="#"><img src="images/voice.png" alt="voice_app"></a></li>
+                    <li><div class="box_exp" data-img="chat"><h1>Near chat App</h1><p>This is Near chat app</p></div><a href="#"><img src="images/chat.png" alt="tamil_app"></a></li>
                 </ul>
                 <ul>
-                    <li><div class="box" data-img="scrollnavijs"><h1>ScrollNaviJs</h1><p>This is ScrollNaviJs jQUery Plugin</p></div><a href="#"><img src="images/scrollnavijs.png" alt="scrollnavijs"></a></li>
-                    <li><div class="box"></div><a href="#"><img src="images/chat.png" alt="tamil_app"></a></li>
-                    <li><div class="box" data-img="musugundha"><h1>musugundha matimony</h1><p>This is musugundha matimony website</p></div><a href="#"><img src="images/musugundha.png" alt="musugundha matimony"></a></li>
+                    <li><div class="box_exp" data-img="scrollnavijs"><h1>ScrollNaviJs</h1><p>This is ScrollNaviJs jQUery Plugin</p></div><a href="#"><img src="images/scrollnavijs.png" alt="scrollnavijs"></a></li>
+                    <li><div class="box_exp"></div><a href="#"><img src="images/chat.png" alt="tamil_app"></a></li>
+                    <li><div class="box_exp" data-img="musugundha"><h1>musugundha matimony</h1><p>This is musugundha matimony website</p></div><a href="#"><img src="images/musugundha.png" alt="musugundha matimony"></a></li>
                 </ul>
             </div>
+        </section>
+        <section id="section5">
+            <div id="map"></div>
+            <div class="contact_me">
+                <div class="addr">
+                    <ul>
+                        <li class="loc_addr">No:40, LB Road, Chennai - 600041</li>
+                        <li class="mail">senthil2rajan@gmail.com</li>
+                        <li class="mobile">+91-9003458326</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com/senthil2rajan" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+                    <a href="https://www.facebook.com/senthil2rajan/" target="_blank"><img src="images/fb.png" alt="fb"></a>
+                    <a href="http://in.linkedin.com/pub/senthil-rajan/76/a35/b56/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a>
+                    <a href="https://github.com/senthilraj/" target="_blank"><img src="images/git.png" alt="github"></a>
+                </div>
+            </div>
+            <img src="images/aero.png" alt="contact" class="aerop">
         </section>
         <div class="popup_wrapper">
             <div class="popup_window">

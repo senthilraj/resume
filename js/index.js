@@ -160,7 +160,7 @@ $("#sec3btn").click(function(){
  $( window ).scroll(function() {
     var val = $(window).scrollTop();
     console.log(val);
-    $("#section4").css({"background-position":"50% -"+val*1.8+"px"}); 
+    $("#section4").css({"background-position":"50% -"+val*1.5+"px"}); 
  });
  
  $("#sec4btn").click(function(){
@@ -171,7 +171,8 @@ $("#sec3btn").click(function(){
      
  });
  
- $(".box").click(function (){
+ $(".box_exp").click(function (){
+    // alert();
      $(".popup_window img").attr("src","images/"+$(this).attr("data-img")+"big.jpg");
      $(".popup_window h1").text($(this).find("h1").text());
      $(".popup_window p").text($(this).find("p").text());
@@ -188,4 +189,50 @@ $("#sec3btn").click(function(){
     $(".popup_wrapper").fadeOut();
  });
  
+ $("#sec5btn").click(function (){
+     
+    //$(".aerop").animate({bottom:"450px"},2000);
+     $( "img.aerop" ).animate({bottom:"600px",left:"800px"}, 2000,function(){
+         $( "img.aerop" ).css({bottom:"-300px",left:"-600px"});
+     });
+   // alert();
+ });
+ 
 $("#nav").scroll_navi();
+
+
+
+/* google map */
+
+// When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 14,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(12.994145, 80.256054), // New York
+                    disableDefaultUI: true,
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]}]
+                };
+                 
+                
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using out element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+                
+                var marker = new google.maps.Marker({
+                    position: mapOptions.center,
+                    map: map,
+                    title: 'senthil'
+                });
+            }

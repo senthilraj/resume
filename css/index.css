@@ -2,14 +2,14 @@
 html{ height:100%;}
 body{ min-height: 100%;}
 body{ overflow:hidden; font-family: arial;}
-//#nav{ display: block !important;}
+#nav{ display: block !important;}
 .shutter{z-index: 1; position: absolute; top:0; left: 0; background: url(../images/shutter5.jpg) no-repeat 0 100%; background-size: cover; width: 100%; height: 99%; }
 .open{ cursor: pointer; text-align: center; width: 228px; color: #000; bottom: 20%; position: absolute; left: 46%; z-index: 2;}
 .open img{ width: 40px; margin-top: 40px;}
 #section1{ text-align: center; width: 100%; background: url(../images/senthil2.png) no-repeat ; background-size: cover; height: 650px; float:left;}
 #section1 img{ width: 400px;}
 .container{ width: 980px; margin: 0 auto;}
-#section1 h1{ color: #FFF; line-height: 24px; text-align:left; font-family: arial; font-size: 14px; margin-top: 320px; display: none; padding: 20px; background:/*url(../images/about.png)*/#038ad7; border-radius: 10px;
+#section1 h1{ color: #FFF; line-height: 24px; text-align:left; font-family: arial; font-size: 14px; margin-top: 320px; display: none; padding: 20px; background:#038ad7; border-radius: 10px;
 font-weight: normal; }
 #section2 h1{ color: #fff; font-weight: normal; font-size: 26px; text-align: left; margin-top: 20px; display: none;}
 #section2 ul.skills{width: 100%; margin: 100px 0; float: left;}
@@ -29,7 +29,7 @@ ul.skills li h2{color: #fff; font-weight: normal; font-size: 20px; margin-top:40
   z-index:999;
 }
 .gear{ position: absolute; top:40%; left: 45%; background: #2e2e2e url(../images/exp.gif) no-repeat 50% 50%; border-radius: 50%; background-size: 80px; width: 130px; height: 130px;}
-.exp_sp1,.exp_sp2{ width: 50%; float: left; /*margin: 170px 0;*/ font-family: 'lato'; height: 620px;}
+.exp_sp1,.exp_sp2{ width: 50%; float: left; font-family: 'lato'; height: 620px;}
 .exp_sp1{ background: #2e2e2e;}
 .exp_sp2{ background: #f3f2f2;}
 #section3 h1{ width: 85%;
@@ -46,7 +46,7 @@ width: 85%;
 line-height: 24px; display: none;}
 .exp_sp1 h1, .exp_sp1 p{ float: left; }
 .exp_sp2 h1, .exp_sp2 p{ text-align: right !important; float: right; color: #2e2e2e !important;}
-.timeline{ /*width: 50%; height: 40px;*/ margin: 50px 0 0 0;}
+.timeline{  margin: 50px 0 0 0;}
 .exp_sp1 .timeline{ float: right; border-left: 2px solid #f3f2f2; border-top:2px solid #f3f2f2; position: relative;}
 .exp_sp2 .timeline{ float: left; border-right: 2px solid #2e2e2e; border-top:2px solid #2e2e2e; position: relative;}
 .dot{ position: absolute; width: 21px; height: 21px; bottom: -10px; display: none;}
@@ -58,14 +58,15 @@ margin: 15px 0 30px 0;
 text-align: center !important;
 }
 h1.title_ex{color: #fff; font-weight: normal; font-size: 26px; text-align: left; margin-top: 20px; float:left; width:auto !important;}
-#section4{ background: #38383a url(../images/sec4_city.jpg); background-size: cover; width: 100%; float: left;  overflow: auto; padding: 60px 0; position:relative; height: 580px;}
+#section4{ background: #38383a url(../images/city4.jpg); background-size: cover; width: 100%; float: left;  overflow: auto; padding: 60px 0; position:relative; height: 580px;}
 #section4 ul{width: 100%;
 margin: 40px auto;
 float: left; display: none;}
 #section4 ul li{ margin: 0 60px; float: left; border: 1px solid #fff;}
 #section4 ul li a,#section4 ul li img{ float: left;}
 #section4 ul li { position: relative;}
-.box {
+
+.box_exp {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -84,11 +85,11 @@ float: left; display: none;}
 transition: height 20ms ease;
 cursor: pointer;
 }
- #section4 ul li:hover .box {
+ #section4 ul li:hover .box_exp {
     height:200px;
   }
   
- .box h1, .box p{ display: none;}
+.box_exp h1, .box_exp p{ display: none;}
 .popup_wrapper{ left: 0; bottom: 0; position: relative; background: url(../images/popup.png); width: 100%; height: 100%; z-index: 9999; display: none;}
 .popup_wrapper .popup_window{position: absolute; top:40px; left: 25%; width: 60%; background: #fff; display: none;}
 .popup_window img{ float: left; width:40%;}
@@ -98,3 +99,19 @@ cursor: pointer;
 .popup_window .desc h1{ font-size: 22px;}
 .popup_window .desc p{ font-size: 16px;}
 .close_pop{ background: url(../images/close.png); width: 30px; height: 30px; position: absolute; right: -67px; top:-67px; cursor: pointer;}
+#section5{ width: 100%; float: left;  padding: 60px 0 0 0; background: #000; height: 620px; position: relative;}
+#section5 img.aerop{ position: absolute; left: -600px; bottom: -300px;}
+
+#map {
+    height: 100%;
+        }
+.contact_me{ width: 56%; margin: 0 20%; background: url(../images/about.png);
+border-radius: 5px;
+border: 1px solid #2b2b2b; position: absolute; left: 0; top:200px; padding: 2%;}
+.contact_me .addr{ float: left; width: 60%; border-right: 1px solid #fff; }
+.contact_me .addr li{ margin: 20px 0; float: left; width: 100%; padding-top: 40px; font-size: 14px; font-family: 'lato'; font-weight: 300;}
+.loc_addr{ background: url(../images/address.png) 50% 0 no-repeat;}
+.mail{ background: url(../images/mail.png) 50% 0 no-repeat;}
+.mobile{ background: url(../images/mobile.png) 50% 0 no-repeat;}
+.social{float: right; width: 39%; }
+.social a{ float: right; margin: 39% 20px;}
