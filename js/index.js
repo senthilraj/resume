@@ -62,12 +62,16 @@ function disable_scroll() {
     }
     window.onmousewheel = document.onmousewheel = document.onkeydown = null;  
 }
-
+var i=100;
+    setInterval(function (){ 
+        i=i-10;
+        $(".cloud").css({"background-position":i+"px 0"});
+    }, 100);
 
 $( "#sec2btn" ).click(function() { 
     //alert("sdf");
     setTimeout(function (){
-        $("#section2 h1").fadeIn(1000);
+        //$("#section2 h1").fadeIn(1000);
         $("ul.skills li").fadeIn(1000);
                                         $('.loader1').ClassyLoader({
                                                 speed: 20,
@@ -121,6 +125,8 @@ $( "#sec2btn" ).click(function() {
                                                 height: 150,
                                                 remainingLineColor: 'rgba(200,200,200,0.1)'
                                             });
+                                            
+                                           
             },1000);
                     
 });
@@ -133,7 +139,7 @@ $("#sec3btn").click(function(){
       //$( ".car" ).css({transform: translate(0, 0)});
  
   });*/
-      $( ".title_ex" ).fadeIn(2000);
+      //$( ".title_ex" ).fadeIn(2000);
       
   setTimeout(function (){
              $( ".timeline" ).animate({width: "50%"}, 1600);

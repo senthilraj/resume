@@ -17,6 +17,7 @@ ul.skills li{width: 25%; display: none; margin: 0; }
 ul.skills li h2{color: #fff; font-weight: normal; font-size: 20px; margin-top:40px;}
 #section3{  background: #38383a url(../images/bg3.png); width: 100%; float: left;  overflow: auto; padding: 60px 0 0 0; position:relative;}
 #section3 .car{ position:absolute; top:40%; right:-230px;  width:230px; } 
+.cloud{ position: absolute; left: 0; bottom: 0; background: url(../images/cloud.png) 100px 0px; height: 282px; width: 100%;}
 #loading{
 	position: absolute;
 	top: 0;

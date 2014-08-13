@@ -21,7 +21,7 @@
             li{ float: left; margin: 0 20px;}
             //.container{ margin: 0 auto; width: 980px;}
             //#section1{ line-height: 600px; background: #059ee4; width: 100%; float: left;  overflow: auto;}
-            #section2{ min-height: 560px; background: #038ad7; width: 100%; float: left;  overflow: auto; padding: 60px 0;}
+            #section2{ position: relative; min-height: 560px; background: #038ad7; width: 100%; float: left;  overflow: auto; padding: 60px 0;}
             //#section3{ line-height: 600px; background: #38383a; width: 100%; float: left;  overflow: auto;}
 
 
