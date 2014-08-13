@@ -8,6 +8,7 @@ body{ overflow:hidden; font-family: arial;}
 .open img{ width: 40px; margin-top: 40px;}
 #section1{ text-align: center; width: 100%; background: url(../images/senthil2.png) no-repeat ; background-size: cover; height: 650px; float:left;}
 #section1 img{ width: 400px;}
+#section1 h1 span{ font-size: 20px;}
 .container{ width: 980px; margin: 0 auto;}
 #section1 h1{ color: #FFF; line-height: 24px; text-align:left; font-family: arial; font-size: 14px; margin-top: 320px; display: none; padding: 20px; background:#038ad7; border-radius: 10px;
 font-weight: normal; }
