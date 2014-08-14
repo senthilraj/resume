@@ -32,6 +32,8 @@
 				else{
                                         event.preventDefault();
 					var link_add = $(this).attr("href");
+                                        $("#nav").find("a").removeClass("active");
+                                        $(this).addClass("active");
 					var pos = $(link_add).offset().top;
                                         //alert(pos);
 					$('html, body').animate({scrollTop: pos}, settings.speed);

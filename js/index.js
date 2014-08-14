@@ -17,8 +17,17 @@ $( ".open" ).click(function() {
           //$(".shutter").css({"top":"-865px"});
           $( ".shutter" ).animate({top: "-"+shu_h+"px"}, 1500);
           setTimeout(function (){
-              $("#section1 h1").fadeIn(1500);
-            },1700);
+              $("#section1 .senthil1").animate({left:"42%",opacity:"0.2"},700).fadeOut(500);
+              $("#section1 .senthil2").animate({right:"42%",opacity:"0.2"},700).fadeOut(500);
+            },1300);
+            setTimeout(function (){
+              $("#section1 .senthil").animate({left:"65%"},900);
+             
+            },2100);
+            
+          setTimeout(function (){
+              $("#section1 h1").slideDown(500);
+            },3700);
             /*enable_scroll();*/
             setTimeout(function (){
                 $("#nav").fadeIn(1000);
