@@ -8,6 +8,7 @@ var win_w=$(window).width();
 if(win_w<=482)
 {
     enable_scroll();
+    section2();
     
 }
 disable_scroll();
@@ -87,7 +88,15 @@ $( "#sec2btn" ).click(function() {
     setTimeout(function (){
         //$("#section2 h1").fadeIn(1000);
         $("ul.skills li").fadeIn(1000);
-                                        $('.loader1').ClassyLoader({
+                                        
+               section2();                             
+                                           
+            },1000);
+                    
+});
+
+function section2(){
+    $('.loader1').ClassyLoader({
                                                 speed: 20,
                                                 diameter: 60,
                                                 fontSize: '30px',
@@ -139,12 +148,8 @@ $( "#sec2btn" ).click(function() {
                                                 height: 150,
                                                 remainingLineColor: 'rgba(200,200,200,0.1)'
                                             });
-                                            
-                                           
-            },1000);
-                    
-});
-
+}
+alert($("#section3").scrollTop());
 $("#sec3btn").click(function(){
 
  /* $( ".car" ).animate({right: "1500px"}, 3600, function () {

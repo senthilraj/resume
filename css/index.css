@@ -175,4 +175,14 @@ position: absolute;
     #nav li a img{ display: block; float: left;}
     .open{ left: 24%;}
     body {  overflow: auto;}
+    img.senthil{ left: 0; width: 200px;}
+    
+    .exp_sp1, .exp_sp2 {
+    float: left;
+    font-family: 'lato';
+    height: 620px;
+    width: 42%;
+    padding: 4%;
+    }
+    
 	}
