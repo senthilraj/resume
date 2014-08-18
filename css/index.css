@@ -161,13 +161,16 @@ position: absolute;
         font-size: 12px;
         top: 24%;
         left: 0;
+        z-index: 2;
     } 
     
     #nav{
         font-size: 0;
+        height: auto;
+        line-height: auto;
     }
-    
-    #nav li a img{ display: block;}
+    #nav li a{ font-size: 0; float: left; padding: 5px;}
+    #nav li a img{ display: block; float: left;}
     .open{ left: 24%;}
     
 	}
