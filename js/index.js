@@ -5,12 +5,7 @@ $(window).load(function() {
 		
 var win_w=$(window).width();
 
-if(win_w<=482)
-{
-    enable_scroll();
-    section2();
-    
-}
+
 disable_scroll();
 
 var shu_h = $('.shutter').height();
@@ -19,6 +14,12 @@ console.log(shu_h-30);
 shu_h=shu_h-30;
 $( ".open" ).click(function() {
   //alert( "Handler for .click() called." );
+         if(win_w<=482)
+          {
+              enable_scroll();
+              section2();
+
+          }
           $(this).fadeOut();
           //$(".shutter").css({"top":"-865px"});
           $( ".shutter" ).animate({top: "-94%"}, 1500);
