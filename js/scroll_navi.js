@@ -26,7 +26,14 @@
             $(window).resize(function(){
                 wh = win.height();
                 wh=wh-60;
-                elem.css("top",wh+"px");
+                var topvalue = win.scrollTop();
+                if(wh<=topvalue)
+                {
+                    $(elem).css({"position":"fixed","top":"0px"});
+                }
+                else{
+                    $(elem).css({"position":"absolute","top":wh+"px"});
+                }
             });
             
             
