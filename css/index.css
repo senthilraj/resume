@@ -170,7 +170,8 @@ position: absolute;
         line-height: 0 !important;
     }
    #section2 ul.skills{ margin: 0;}
-   #section2 ul.skills li{ width: 100%; display: block;}
+   #section2 ul.skills li{ width: 100%; display: block; margin-bottom: 40px;}
+   #section2 ul.skills li h2{ margin: 0;}
     #nav li a{ font-size: 0; float: left; padding: 5px;}
     #nav li a img{ display: block; float: left;}
     .open{ left: 24%;}
