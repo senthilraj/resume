@@ -3,8 +3,12 @@ $(window).load(function() {
 	$("#loading").hide();							
 });
 		
-
-
+var win_W=$(window).width();
+if(win_w<=482)
+{
+    enable_scroll();
+    
+}
 disable_scroll();
 
 var shu_h = $('.shutter').height();

@@ -167,8 +167,10 @@ position: absolute;
     #nav{
         font-size: 0;
         height: auto !important;
-        line-height: 0;
+        line-height: 0 !important;
     }
+    ul.skills{ margin: 0;}
+    ul.skills li{ width: 100%; display: block;}
     #nav li a{ font-size: 0; float: left; padding: 5px;}
     #nav li a img{ display: block; float: left;}
     .open{ left: 24%;}
