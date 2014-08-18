@@ -150,7 +150,10 @@ position: absolute;
 .clr{ clear: both;}
 
 #nav li a img{ display: none;}
-
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
 
 
 @media (max-device-width: 980px) {
