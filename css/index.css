@@ -176,7 +176,7 @@ position: absolute;
     #nav li a img{ display: block; float: left;}
     .open{ left: 24%;}
     body {  overflow: auto;}
-    img.senthil{ left: 0; width: 200px;}
+    img.senthil{ left: 0 !important; width: 200px;}
     
     .exp_sp1, .exp_sp2 {
     float: left;
