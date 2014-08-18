@@ -4,12 +4,10 @@ $(window).load(function() {
 });
 		
 var win_w=$(window).width();
-var win_height=$(window).height();
-$("section").css("min-height",win_height+"px");
 
 $(window).resize( function() {
   
-    win_height=$(window).height();
+    var win_height=$(window).height();
     $("section").css("min-height",win_height+"px");
 
 });
@@ -27,6 +25,10 @@ $( ".open" ).click(function() {
               enable_scroll();
               section2();
               $("body").css("overflow","auto");
+              var win_height=$(window).height();
+              $("section").css("min-height",win_height+"px");
+              win_height=win_height-80;
+              $(".exp_sp1, .exp_sp2").css("min-height",win_height+"px");
 
           }
           $(this).fadeOut();
