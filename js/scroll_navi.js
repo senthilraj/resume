@@ -19,14 +19,16 @@
             var win = $( window );
             var elem = $( this );
             var elem_a = "#"+elem.attr("id")+" a";
+            var wh;
+            wh = win.height();
+            wh=wh-60;
+            elem.css("top",wh+"px");
             $(window).resize(function(){
-                var wh = win.height();
+                wh = win.height();
                 wh=wh-60;
                 elem.css("top",wh+"px");
             });
-            var wh = win.height();
-                wh=wh-60;
-                elem.css("top",wh+"px");
+            
             
             $(elem_a).click(function(event){
 				var link_outerpage = $(this).attr("data-outerpage");
