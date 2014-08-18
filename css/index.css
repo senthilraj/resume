@@ -172,6 +172,11 @@ position: absolute;
         height: auto !important;
         line-height: 0 !important;
     }
+    #nav ul li {
+    float: left;
+    margin: 0 3px;
+    }
+
    #section2 ul.skills{ margin: 0;}
    #section2 ul.skills li{ width: 100%; display: block; margin-bottom: 40px;}
    #section2 ul.skills li h2{ margin: 0;}
@@ -205,5 +210,5 @@ position: absolute;
     #section4 ul, #section3 h1, #section3 p, .ex_y{ display: block !important;}
     
     .container{ margin: 0 10%; width: 80%; float:left;}
-    
+    #nav div.container { margin: 0 5%; width: 90%;}
 	}
