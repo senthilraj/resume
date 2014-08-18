@@ -15,7 +15,7 @@
                 text-align: center;
             }
             
-            #nav{ border-top:1px solid #e3e3e3; width: 100%; line-height:  60px; height:60px; background:#FFF; font-size: 14px; color: #fff; position: absolute; top:550px; left: 0px; z-index: 1; display:none;}
+            #nav{ border-top:1px solid #e3e3e3; width: 100%; line-height:  60px; bottom:0px; height:60px; background:#FFF; font-size: 14px; color: #fff; position: absolute; top:550px; left: 0px; z-index: 1; display:none;}
             #nav a{ color: #000; text-decoration: none; padding: 22px;}
            #nav li a:hover,#nav li a.active{ background: #e8e8e8;}
             ul{ list-style: none;}

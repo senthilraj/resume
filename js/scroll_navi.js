@@ -21,7 +21,7 @@
             var elem_a = "#"+elem.attr("id")+" a";
             var wh = win.height();
             wh=wh-60;
-            elem.css("top",wh+"px");
+           // elem.css("top",wh+"px");
             
             $(elem_a).click(function(event){
 				var link_outerpage = $(this).attr("data-outerpage");
@@ -46,9 +46,9 @@
                 {
                     $(elem).css({"position":"fixed","top":"0px"});
                 }
-                else{
-                    $(elem).css({"position":"absolute","top":wh+"px"});
-                }
+                /*else{
+                    $(elem).css({"position":"absolute","bottom":wh+"px"});
+                }*/
             });
             
         });
