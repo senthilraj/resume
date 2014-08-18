@@ -15,7 +15,7 @@ $( ".open" ).click(function() {
   //alert( "Handler for .click() called." );
           $(this).fadeOut();
           //$(".shutter").css({"top":"-865px"});
-          $( ".shutter" ).animate({top: "-99%"}, 1500);
+          $( ".shutter" ).animate({top: "-94%"}, 1500);
           setTimeout(function (){
               $("#section1 .senthil1").animate({left:"42%",opacity:"0.2"},700).fadeOut(500);
               $("#section1 .senthil2").animate({right:"42%",opacity:"0.2"},700).fadeOut(500);
