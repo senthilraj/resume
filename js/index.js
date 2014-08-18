@@ -14,7 +14,7 @@ console.log(shu_h-30);
 shu_h=shu_h-30;
 $( ".open" ).click(function() {
   //alert( "Handler for .click() called." );
-         if(win_w<=482)
+         if(win_w<=982)
           {
               enable_scroll();
               section2();
