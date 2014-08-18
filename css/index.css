@@ -115,7 +115,7 @@ cursor: pointer;
     font-weight: 300;}
 .popup_window .desc h1{ font-size: 22px;}
 .popup_window .desc p{ font-size: 16px;}
-.close_pop{ background: url(../images/close.png); width: 30px; height: 30px; position: absolute; right: -67px; top:-67px; cursor: pointer;}
+.close_pop{ background: url(../images/close.png); width: 30px; height: 30px; position: absolute; right: -30px; top:-30px; cursor: pointer;}
 #section5{ width: 100%; float: left;  padding: 60px 0 0 0; background: #000; height: 620px; position: relative;}
 #section5 img.aerop{ position: absolute; left: -600px; bottom: -300px;}
 
@@ -189,6 +189,11 @@ position: absolute;
     height: 620px;
     width: 42%;
     padding: 4%;
+    }
+    
+    .social a {
+    text-align: center;
+    width: 100%;
     }
     
 	}
