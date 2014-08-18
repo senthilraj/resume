@@ -166,8 +166,8 @@ position: absolute;
     
     #nav{
         font-size: 0;
-        height: auto;
-        line-height: auto;
+        height: auto !important;
+        line-height: 0;
     }
     #nav li a{ font-size: 0; float: left; padding: 5px;}
     #nav li a img{ display: block; float: left;}
