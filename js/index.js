@@ -4,7 +4,15 @@ $(window).load(function() {
 });
 		
 var win_w=$(window).width();
+var win_height=$(window).height();
+$("section").css("min-height",win_height+"px");
 
+$(window).resize( function() {
+  
+    win_height=$(window).height();
+    $("section").css("min-height",win_height+"px");
+
+});
 
 disable_scroll();
 
