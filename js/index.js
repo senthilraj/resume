@@ -3,7 +3,7 @@ $(window).load(function() {
 	$("#loading").hide();							
 });
 		
-var win_W=$(document).width();
+var win_w=$(window).width();
 
 if(win_w<=482)
 {
