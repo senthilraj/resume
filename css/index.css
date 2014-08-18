@@ -175,7 +175,7 @@ position: absolute;
     #nav li a{ font-size: 0; float: left; padding: 5px;}
     #nav li a img{ display: block; float: left;}
     .open{ left: 24%;}
-    body {  overflow: auto;}
+    //body {  overflow: auto;}
     img.senthil{ left: 20% !important; width: 200px;}
     div.gear{ display: none;}
     #section4 ul{ margin: 0;}

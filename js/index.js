@@ -18,6 +18,7 @@ $( ".open" ).click(function() {
           {
               enable_scroll();
               section2();
+              $("body").css("overflow","auto");
 
           }
           $(this).fadeOut();
