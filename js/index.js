@@ -3,7 +3,8 @@ $(window).load(function() {
 	$("#loading").hide();							
 });
 		
-var win_W=$(window).width();
+var win_W=$(document).width();
+
 if(win_w<=482)
 {
     enable_scroll();
