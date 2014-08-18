@@ -168,4 +168,6 @@ position: absolute;
     }
     
     #nav li a img{ display: block;}
+    .open{ left: 24%;}
+    
 	}
