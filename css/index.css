@@ -153,7 +153,7 @@ position: absolute;
 
 
 
-@media only screen and (max-device-width: 980px) {
+@media (max-device-width: 980px) {
 
     #section1 h1{
         padding: 4%;
