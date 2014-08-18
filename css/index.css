@@ -148,3 +148,24 @@ right: 15%;
 position: absolute;
 /* display: none; */}
 .clr{ clear: both;}
+
+#nav li a img{ display: none;}
+
+
+
+@media only screen and (max-device-width: 480px) {
+
+    #section1 h1{
+        padding: 4%;
+        width: 92%;
+        font-size: 12px;
+        top: 24%;
+        left: 0;
+    } 
+    
+    #nav{
+        font-size: 0;
+    }
+    
+    #nav li a img{ display: block;}
+	}
