@@ -149,7 +149,7 @@ function section2(){
                                                 remainingLineColor: 'rgba(200,200,200,0.1)'
                                             });
 }
-alert($("#section3").scrollTop());
+//alert($("#section3").scrollTop());
 $("#sec3btn").click(function(){
 
  /* $( ".car" ).animate({right: "1500px"}, 3600, function () {
