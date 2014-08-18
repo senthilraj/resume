@@ -162,7 +162,7 @@ position: absolute;
         padding: 4%;
         width: 92%;
         font-size: 12px;
-        top: 24%;
+        top: 74%;
         left: 0;
         z-index: 2;
     } 
@@ -179,7 +179,7 @@ position: absolute;
     #nav li a img{ display: block; float: left;}
     .open{ left: 24%;}
     //body {  overflow: auto;}
-    img.senthil{ left: 20% !important; width: 200px;}
+    img.senthil{ left: 20% !important; width: 200px; bottom: -60px;}
     div.gear{ display: none;}
     #section4 ul{ margin: 0;}
     #section4 ul li {
