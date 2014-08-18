@@ -200,4 +200,6 @@ position: absolute;
     
     #section4 ul, #section3 h1, #section3 p, .ex_y{ display: block !important;}
     
+    .container{ margin: 0 10%; width: 80%; float:left;}
+    
 	}
