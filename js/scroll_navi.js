@@ -24,7 +24,9 @@
                 wh=wh-60;
                 elem.css("top",wh+"px");
             });
-            
+            var wh = win.height();
+                wh=wh-60;
+                elem.css("top",wh+"px");
             
             $(elem_a).click(function(event){
 				var link_outerpage = $(this).attr("data-outerpage");
