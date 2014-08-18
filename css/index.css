@@ -194,6 +194,9 @@ position: absolute;
     .social a {
     text-align: center;
     width: 100%;
+    margin: 0;
     }
+    
+    #section4 ul, #section3 h1, #section3 p, .ex_y{ display: block !important;}
     
 	}
