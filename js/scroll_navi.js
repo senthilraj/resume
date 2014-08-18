@@ -19,7 +19,7 @@
             var win = $( window );
             var elem = $( this );
             var elem_a = "#"+elem.attr("id")+" a";
-            $(document).resize(function(){
+            $(window).resize(function(){
                 var wh = win.height();
                 wh=wh-60;
                 elem.css("top",wh+"px");
