@@ -110,7 +110,7 @@ cursor: pointer;
 .popup_wrapper{ left: 0; bottom: 0; position: relative; background: url(../images/popup.png); width: 100%; height: 100%; z-index: 9999; display: none;}
 .popup_wrapper .popup_window{position: absolute; top:40px; left: 25%; width: 60%; background: #fff; display: none;}
 .popup_window img{ float: left; width:40%;}
-.popup_window .desc{ float: left; width:50%; margin: 40px; text-align: left; position: relative;}
+.popup_window .desc{ float: left; width:49%; margin: 40px; text-align: left; position: relative;}
 .popup_window .desc h1,.popup_window .desc p{float: left; width: 100%; margin-bottom: 10px; color: #2e2e2e; font-family: 'lato';
     font-weight: 300;}
 .popup_window .desc h1{ font-size: 22px;}
