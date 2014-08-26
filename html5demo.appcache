@@ -6,15 +6,16 @@ CACHE:
 images/shutter5.jpg
 images/about.png
 images/aboutme.png
-/js/jquery-2.1.1.min.js
-resume/js/scroll_navi.js
-/js/index.js
-/css/index.css
-/css/scrollnavi.css
+js/jquery-2.1.1.min.js
+js/jquery.classyloader.js
+js/scroll_navi.js
+js/index.js
+css/index.css
+css/scrollnavi.css
 
 NETWORK:
 http://*
 https://*
 
 FALLBACK:
-/html/ /offline.html
+/html/ offline.html
