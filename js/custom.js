@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
 $(document).ready(function() {
 	$('#portfolio-page').fullpage({
 	  sectionsColor: ['#1b1b1b', '#FFF', '#337ab7', 'whitesmoke', '#ccddff'],
-	  anchors: [ 'home', 'about', 'skills', 'portfolio', 'contact'],
+	  anchors: [ 'home', 'about', 'skills', 'contact', 'portfolio'],
 	  menu: '#menu-item',
 	  afterLoad: function(anchorLink, index){
 	  	if( anchorLink == 'about' )
